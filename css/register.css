@@ -1,0 +1,143 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*body{
+	background:url(../img/wallpaper.jpg) no-repeat; 
+}*/
+.clear{
+	clear: both;
+	overflow: hidden;
+	height: 0;
+}
+ul li{
+	list-style: none;
+}
+/*头部*/
+.head{
+	position: relative;
+	width: 1920px;
+	height: 1000px;
+	background: url(../img/wallpaper.jpg) no-repeat;
+	background-size: cover;
+}
+.center{
+	position: absolute;
+	width: 1000px;
+	height: 400px;
+	margin: 480px 480px 0px 480px ;
+	/*background: #FFF;*/
+	background: rgba(255,255,255,0.3);
+}
+.Home{
+	width: 915px;
+	height: 320px;
+	margin: 40px auto;
+}
+.Left{
+	float: left;
+	width: 450px;
+	height: 310px;
+	border-right: 1px solid black;
+}
+.LeftTop{
+	width: 95px;
+	height: 33px;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	line-height: 33px;
+	border-bottom: 5px solid green;
+	letter-spacing: 3px;
+}
+.LeftBottom{
+	width: 325px;
+	height: 240px;
+	margin: 30px 50px 30px 0px;
+}
+.LeftBottom ul li{
+	
+	height: 60px;
+}
+.LeftBottom input{
+	width: 220px;
+	height: 30px;
+	border-radius: 5px;
+}
+.LeftBottom .li3{
+	text-align: center;
+}
+.LeftBottom button{
+	width: 110px;
+	height: 30px;
+	background: greenyellow;
+	border-radius: 5px;
+}
+/*右面*/
+.Right{
+	float: left;
+	width: 455px;
+	height: 310px;
+}
+.RightTop{
+	width: 95px;
+	height: 33px;
+	top: 50px;
+	margin-left:50px;
+	text-align: center;
+	line-height: 33px;
+	border-bottom: 5px solid green;
+	letter-spacing: 3px;
+}
+.RightBottom{
+	width: 360px;
+	height: 240px;
+	margin: 30px 50px 30px 50px;
+}
+.RightBottom ul li{
+	height: 60px;
+}
+.RightBottom .bt1,.RightBottom .bt3,.RightBottom .bt5{
+	width:120px;
+	height: 35px;
+	border-radius: 5px;
+}
+.RightBottom .bt2,.RightBottom .bt4{
+	width: 200px;
+	height: 35px;
+	border-radius: 5px;
+}
+.RightBottom .bt1{
+	background: url(../img/zc1.jpg);
+	background-size:cover;
+}
+.RightBottom .bt2{
+	background:url(../img/zc2.jpg) -2px -5px no-repeat;
+	background-size:cover;
+}
+.RightBottom .bt3{
+	background: url(../img/zc4.jpg);
+	background-size:cover;
+}
+.RightBottom .bt4{
+	background: url(../img/zc3.jpg)-2px -5px no-repeat ;
+	background-size:cover;
+}
+.RightBottom .bt5{
+	background: url(../img/zc5.jpg);
+	background-size:cover;
+}
+.RightBottom .bt2,.RightBottom .bt4,.RightBottom .li4{
+	float: right;
+}
+.RightBottom .li4 a{
+	text-decoration: none;
+}
+.footer{
+	width:100%;
+	height:75px;
+	margin-top:20px;
+	text-align: center;
+	line-height: 100px;
+    border-top: 1px solid gray;
+}

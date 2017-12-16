@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url(../img/bg.jpg);
+}
+ul li{
+	list-style: none;
+}
+/*内容部分*/
+.center{
+	width: 1000px;
+	height: 400px;
+	margin: 250px auto;
+	background: #FFF;
+}
+.Left{
+	float: left;
+	width: 580px;
+	height: 100%;
+}
+.Lefthome{
+	width: 510px;
+	height: 340px;
+	margin: 20px auto;
+}
+
+.Left1 img{
+	width: 200px;
+	height:318px;
+}
+.Left2{
+	float: right;
+	width: 300px;
+	height: 320px;
+}
+.Left2-1 img{
+	width: 300px;
+	height: 150px;
+}
+.small{
+	width: 100%;
+	height:164px;
+}
+.small img{
+	width: 150px;
+	height: 164px;
+}
+.smallRight{
+	float: right;
+	width: 144px;
+	height: 164px;
+}
+.smallRight img{
+	width: 144px;
+	height: 164px;
+}
+/*右面部分*/
+.Right{
+	float: right;
+	width: 410px;
+	height: 100%;
+}
+.Right1{
+	width: 360px;
+	height: 350px;
+	margin: 20px auto;
+}
+.RightTop{
+	width:100%;
+	height:25px;
+	border-bottom: 1px solid black;
+	padding-top: 3px;
+}
+.RightTop h3{padding-left: 10px;}
+.RightBottom{
+	width: 340px;
+	height:290px;
+	margin: 10px auto;
+}
+.RightBottom input{
+	width: 335px;
+	height:35px ;
+	line-height: 35px;
+	text-indent: 1em;
+	border-radius: 5px;
+}
+.RightBottom ul li{
+	height:70px;
+}
+.RightBottom button{
+	width: 100px;
+	height: 35px;
+	background: greenyellow;
+	border-radius: 5px;
+}
+.RightBottom span{
+	margin-top: 5px;
+	margin-right: 20px;
+	float: right;
+}
+.RightBottom span input{
+	width: 10px;
+	height: 10px;
+}
+.RightBottom .bt1{
+	width: 120px;
+	height: 35px;
+	background: url(../img/deng.png);
+	background-size: cover;
+}
+.RightBottom .bt2{
+	float: right;
+	width: 165px;
+	height: 35px;
+	background: url(../img/deng1.png) -5px -5px no-repeat;
+}
+.RightBottom .li2 a{text-decoration: none;}
+.RightBottom .li2{
+	font-size: 12px;
+	float: right;
+}
