@@ -229,3 +229,27 @@ body{
 	line-height: 100px;
     border-top: 1px solid gray;
 }
+.toTop{
+	position: fixed;
+    width:70px;
+    height:30px;
+    right:30px ;
+    bottom: 60px;
+    text-align: center;
+    line-height: 30px;
+    background-color:#c7d6e5;
+    border-radius: 5px;
+}
+.toTop a{
+	/*下划线*/
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	color:ghostwhite;
+}
+.toTop img{
+	width: 8px;
+	height:8px;
+	margin-right: 3px;
+	margin-bottom: 2px;
+}
